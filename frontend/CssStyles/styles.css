@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+#product-list, #cart-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product, .cart-item {
+    width: 200px; /* Set the width of each item */
+    height: 250px; /* Set the height of each item */
+    margin: 10px; /* Add margin between items */
+    border: 1px solid #ccc; /* Add border for visual separation */
+    padding: 10px; /* Add padding for content inside each item */
+    box-sizing: border-box; /* Include border and padding in the width and height */
+}
+
+.product button, .cart-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.cart-item button {
+    background-color: #dc3545;
+}
+
+button#checkout-button {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+#checkout-button {
+    display: block;
+    margin: 20px auto; /* Center the button horizontally */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Adjust font size */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+#checkout-button:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+}
