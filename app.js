@@ -21,12 +21,12 @@ app.use('/SignIn', authRoutes);
 app.use('/postCart', cartRoutes)
 app.use('/getCart' , cartRoutes)
 app.use('/postCart', cartRoutes);
-
+const port = process.env.PORT
 sequelize
 //.sync({force:true})
 .sync()
     .then(() => {
-        app.listen(3000, () => {
+        app.listen(PORT, () => {
             console.log('Server is running on port 3000');
         });
     })
